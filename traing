@@ -1,0 +1,7 @@
+python tensorflow/examples/image_retraining/retrain.py \
+--bottleneck_dir=/home/rlfs/tg-data/test/bottlenecks \
+--how_many_training_steps 500 \
+--model_dir=/home/rlfs/tg-data/test/inception \
+--output_graph=/home/rlfs/tg-data/test/retrained_graphEx4.pb \
+--output_labels=/home/rlfs/tg-data/test/retrained_labels.txt \
+--image_dir="/home/rlfs/tg-data/database Ex4" 
